@@ -1,5 +1,5 @@
 What the project ?
-A newspaper website that is connected to various APIs.
+A newspaper website that is connected to various APIs. simply displays all of the various data sets.
 
 Whats the underlying data structure ? Read the data structure ? 
 
@@ -12,12 +12,17 @@ Research & define the tech Stack ?
 ASP.NET MVC Web 
 
 ### Back-end
-- SQL Server
 - C#
+- HTTP Client 
 
 ### Front-end
 - Vanilla HTML5, CSS
 - JS
 
 
-Research & define the software architecture ? 
+Research & define the software architecture for news web app ? 
+
+ MVC architecture 
+ Model : External API communication, methods to fetch and parse.
+ View : HTML CSS JS layout/template
+ Controller : handles user requests, route it and return a view
